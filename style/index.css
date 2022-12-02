@@ -1,1 +1,87 @@
-/* Add CSS styling here */
+* {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* this sets the font to 10rem so it's easier to shape */
+html {
+    font-size: 62.5%;
+    margin: 40px;
+}
+
+/* general styles -  baseline attributes that need to apply to the body of the page */
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+section {
+    /* margin: 30px; */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5%;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    margin: .5% 7% 1.5% 0;
+    font-weight: bold;
+}
+
+nav a {
+    /* margin: .4% 7% 2% 0; */
+    font-size: 2rem;   
+}
+
+.navbutton {
+    margin-left: 5%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    width: 30%;
+}
+
+.bio p {
+    font-size: 2.5rem;
+    line-height: 1.5;   
+}
+
+.bio {
+    padding: 20px;
+
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+
+.contactbutton {
+    background-color: #006270;
+    color: white;
+    padding: 10px;
+    font-size: 3rem;
+}
