@@ -119,3 +119,9 @@ nav a {
     margin-left: 12%;
 }
 
+
+@media (max-width: 800px) {
+    .html{
+        background-color: red;
+    }
+}
