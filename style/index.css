@@ -66,7 +66,7 @@ nav a {
 }
 
 .hero {
-    width: 30%;
+    width: 40%;
 }
 
 .bio p {
@@ -89,7 +89,7 @@ nav a {
 .getintouch {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 80%;
 }
 
 .contactbutton {
@@ -102,7 +102,7 @@ nav a {
 
 .contactbutton:hover {
     color: #ff7a59;
-    border: #ff7a59 solid px;
+    border: #ff7a59 solid;
     background:#fff;
 }
 
@@ -111,17 +111,91 @@ nav a {
     text-decoration: none;
 }
 
-
 .lilogo {
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 20%;
     margin-left: 12%;
 }
 
 
 @media (max-width: 800px) {
-    .html{
-        background-color: red;
+
+    h1 {
+        font-size: 3.5rem;
     }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .about p {
+        font-size: 2rem;
+    }
+
+    .getintouch {
+        width: 80%;
+    }
+
+    .lilogo {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;       
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .bio {
+        text-align: center;
+    }
+
+    .projects h2 {
+        text-align: center;
+    }
+
+    .portfolio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portfolio img {
+        width: 50%;
+    }
+
+    .portfolio p {
+        margin-bottom: 2%;
+    }
+
+    footer h2 {
+        font-size: 2.5rem;
+        margin: 1%;
+    }
+    .getintouch {
+        width: 100%;
+    }
+
+    .lilogo {
+        width: 35%;
+    }
+
+    .contactbutton {
+        font-size: 2rem;
+    }
+
+
 }
